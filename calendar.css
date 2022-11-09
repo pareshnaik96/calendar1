@@ -20,6 +20,7 @@ body{
 .month{
     display:flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
     background-color: #2ecc71;
     color:white;
@@ -59,6 +60,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 23px;
     width:50px;
     height:50px;
     background-color: rgba(0, 0, 0, 0.1);
@@ -69,4 +71,11 @@ body{
 .next:hover{
   background-color: rgba(0, 0, 0, 0.2);
   cursor: pointer;
+}
+.prev_date{
+    color:gray;
+}
+#month{
+    font-size: 30px;
+    font-weight: 500;
 }
